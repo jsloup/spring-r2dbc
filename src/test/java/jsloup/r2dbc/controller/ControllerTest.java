@@ -20,7 +20,7 @@ public class ControllerTest {
     private static PostgreSQLContainer sqlContainer;
 
     static {
-        sqlContainer = new PostgreSQLContainer<>("postgres:12.3")
+        sqlContainer = new PostgreSQLContainer<>("postgres")
                 .withDatabaseName("person-db")
                 .withUsername("sa")
                 .withPassword("sa");
