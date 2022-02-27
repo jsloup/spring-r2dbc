@@ -9,4 +9,5 @@ public class R2dbcDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(R2dbcDemoApplication.class, args);
 	}
+
 }
